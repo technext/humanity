@@ -22,9 +22,19 @@ border-radius: 10px;
 cursor: pointer;
 
 }
+.service-features2{
+background: rgba(89, 195, 191, 0.09);
+border-radius: 10px;
+cursor: pointer;
+
+}
+.service-features p {
+margin: 0 0 10px;
+padding: 10px 10px 38px;
+}
 .service-features {
 	text-align: center;
-	
+
 }
 .service-features h3 {
 	padding-top: 20px;
