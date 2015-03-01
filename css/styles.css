@@ -14,23 +14,147 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 @import url(http://fonts.googleapis.com/css?family=Allerta+Stencil);
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
+/******* Team ******/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Team */
+
+	.avatar-team-member {
+width: 150px;
+height: 150px;
+overflow: hidden;
+margin: auto;
+border-radius: 50%;
+display: block;
+margin-bottom: 1em;
+}
+	.avatar-team-member img {
+	width: 200px;
+	height: auto;
+	}
+	#team{
+		border-bottom:none;
+	}
+
+	#team .team .team-members{
+		margin:30px auto 0;
+	}
+
+	.team-members .member{
+		margin:15px auto;
+		cursor: default;
+		overflow: hidden;
+	}
+
+	.team-members .member .member-inner{
+		position: relative;
+	}
+
+	.team-members .member a.team-image{
+		display: block;
+		width: 100%;
+		height: auto;
+		z-index: 2;
+	}
+
+	.team-members .member a.team-image img{
+		width: 100%;
+	}
+
+	.inner-details .member-details{
+		position: absolute;
+		width: 100%;
+		left:0;
+		height: 100%;
+		padding:15px;
+		bottom:100%;
+		margin:0;
+		z-index: 3;
+		opacity:0.9;
+		background: #68ABBB;
+		-webkit-transition: all 0.4s;
+		-moz-transition: all 0.4s;
+		transition: all 0.4s;
+	}
+
+	.inner-details .member-details .member-details-inner{
+		position: relative;
+		top:50%;
+		text-align: center;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+/* Team Names, Descriptions */
+
+	.team-members .member-details .member-name{
+		color: white;
+		margin-top:0;
+		padding-top:0;
+		font-size:30px;
+	}
+
+	.team-members .member-details .member-position{
+		color:#8BC3A3;
+		font-size:13px;
+	}
+
+	.team-members .member-details .member-description{
+		color:#fff;
+		font-size:13px;
+	}
+
+/* Team Socials */
+
+	.member .member-details .member-details-inner .socials{
+		margin:10px auto 0;
+	}
+
+	.member .member-details .member-details-inner .socials a{
+		display: inline-block;
+		color:white;
+		font-size:1.2em;
+		line-height:40px;
+		width:40px;
+		height:40px;
+		background:rgba(0,0,0,0.25);
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+		border-radius:50%;
+	}
+
+/* Team Rollover */
+
+	.team-members .member:hover .member-details{
+		bottom:0;
+	}
+
+	.member .member-details .member-details-inner .socials a:hover{
+		background:rgba(0,0,0,1);
+		border-radius:50%;
+	}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* About ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .service-features:hover {
-background: rgba(89, 195, 191, 0.09);
-border-radius: 10px;
-cursor: pointer;
+	background: rgba(89, 195, 191, 0.09);
+	border-radius: 10px;
+	cursor: pointer;
 
 }
 .service-features2{
-background: rgba(89, 195, 191, 0.09);
-border-radius: 10px;
-cursor: pointer;
+	background: rgba(89, 195, 191, 0.09);
+	border-radius: 10px;
+	cursor: pointer;
 
 }
 .service-features p {
-margin: 0 0 10px;
-padding: 10px 10px 38px;
+	margin: 0 0 10px;
+	padding: 10px 10px 38px;
 }
 .service-features {
 	text-align: center;
@@ -108,44 +232,44 @@ body {
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 .search {
-width: 270px;
-height: 62px;
-background: none;
-position: relative;
-float: right;
-margin-top: 10px;
-margin-left: 20px;
+	width: 270px;
+	height: 62px;
+	background: none;
+	position: relative;
+	float: right;
+	margin-top: 10px;
+	margin-left: 20px;
 }
 .search button {
-position: absolute;
-right: 31px;
-top: 17px;
-font-size: 18px;
-color: #66757f;
-background: none;
+	position: absolute;
+	right: 31px;
+	top: 17px;
+	font-size: 18px;
+	color: #66757f;
+	background: none;
 }
 .search input {
-border: 0px none;
+	border: 0px none;
 }
 button {
-outline: none;
-border: none;
-box-shadow: none;
+	outline: none;
+	border: none;
+	box-shadow: none;
 }
 .search input {
-height: 62px;
-width: 270px;
-font-size: 14px;
-line-height: 30px;
-color: #66757f;
-padding-left: 20px;
-letter-spacing: 0.4px;
-padding-right: 40px;
-transition: all 0.3s ease-in;
--webkit-transition: all 0.3s ease-in;
--moz-transition: all 0.3s ease-in;
--o-transition: all 0.3s ease-in;
--ms-transition: all 0.3s ease-in;
+	height: 62px;
+	width: 270px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #66757f;
+	padding-left: 20px;
+	letter-spacing: 0.4px;
+	padding-right: 40px;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
 }
 
 /******* Search End ******/
@@ -160,15 +284,15 @@ transition: all 0.3s ease-in;
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
-text-decoration: none;
-background-color: #FFFFFF !important;
+	text-decoration: none;
+	background-color: #FFFFFF !important;
 }
 
 .header-white .search {
-margin-top: 80px;
-width: 270px;
-background: #fff;
-border: 0px none;
+	margin-top: 80px;
+	width: 270px;
+	background: #fff;
+	border: 0px none;
 }
 .social-share {
 	margin-top: 10px;
@@ -194,18 +318,19 @@ border: 0px none;
 	padding-right: 20px;
 }
 .navbar-toggle .icon-bar {
-background-color: #000 !important;
+	background-color: #000 !important;
 }
 
 ul.nav.navbar-nav li a{
 	color:#2494A0;
 	text-transform: uppercase;
 	font-weight: bold; 
+	font-size: 17px;
 }
 .logo {
-position: relative;
-top: -21px;
-left: 5px;
+	position: relative;
+	top: -21px;
+	left: 5px;
 }
 
 /******* Header End ******/
@@ -215,7 +340,7 @@ left: 5px;
 
 
 section.blog {
-margin-top: 120px;
+	margin-top: 120px;
 }
 .blok-read-sm
 {
@@ -431,20 +556,21 @@ background: none;
 }
 /******* Carousel End ******/
 .connect-wiget {
-float: left;
+	float: left;
 }
 .about-us .follow-block-wrap {
-width: 150px;
+	width: 150px;
 }
 .follow-block-wrap {
-position: relative;
-float: left;
-width: 130px;
-margin-right: 5px;
-margin-bottom: 5px;
+	position: relative;
+	float: left;
+	width: 130px;
+	margin-right: 5px;
+	margin-bottom: 100px;
+
 }
 a:hover {
-text-decoration: none;
+	text-decoration: none;
 }
 .connect-text{
 	text-align: center;
@@ -460,34 +586,34 @@ text-decoration: none;
 	text-decoration: none;
 }
 .bg-blue {
-background: #55acee;
+	background: #55acee;
 }
 .bg-pink {
-background: #ea4c89;
+	background: #ea4c89;
 }
 .bg-dark-blue {
-background: #35465c;
+	background: #35465c;
 }
 .bg-red {
-background: #dd4b39;
+	background: #dd4b39;
 }
 .bg-blue-f {
-background: #3f729b;
+	background: #3f729b;
 }
 .bg-extra-red {
-background: #c92228;
+	background: #c92228;
 }
 .follow-block i {
-font-size: 24px;
-color: #fff;
+	font-size: 24px;
+	color: #fff;
 }
 .follow-block h6 {
-color: #fff;
-padding-top: 14px;
+	color: #fff;
+	padding-top: 14px;
 }
 .follow-block span {
-font-size: 20px;
-color: #fff;
+	font-size: 20px;
+	color: #fff;
 }
 
 
@@ -591,14 +717,14 @@ color: #fff;
 }
  
  section.work-block{
-   background:url(../img/bg.jpg) center center/cover no-repeat fixed;
+    background:url(../img/bg.jpg) center center/cover no-repeat fixed;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     width:100%;
     float:left;
     padding: 115px;
-    margin: 80px 0;
+    margin: 80px 0 0;
  }
 
  /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -611,7 +737,6 @@ footer {
 	width: 100%; 
 	overflow: hidden; 
 	background: #292f33; 
-	margin-top: 160px;
 }
 .footer-single {
 	margin-top: 0px;
@@ -786,7 +911,7 @@ footer {
 	-ms-transition:all 0.3s ease-in;
 }
 .button-totop:hover {
-background: #31A1AC;
+	background: #31A1AC;
 }
 .button-totop .fa {
 	font-size: 24px; 
@@ -1005,10 +1130,3 @@ background: #31A1AC;
     	margin-right: 30px;
     }
 }
-
-
-
-
-
-
-
