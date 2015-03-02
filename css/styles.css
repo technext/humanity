@@ -125,6 +125,13 @@ margin-bottom: 1em;
 		transition: all 0.3s;
 		border-radius:50%;
 	}
+	.list-unstyled li a i.fa {
+		font-size: 22px;
+		background: rgb(43, 112, 158);
+		padding: 8px;
+		color: white;
+		width: 35px;
+	}
 
 /* Team Rollover */
 
@@ -285,7 +292,7 @@ button {
 
 .nav>li>a:focus, .nav>li>a:hover {
 	text-decoration: none;
-	background-color: #FFFFFF !important;
+	background-color: #FFFFFF ;
 }
 
 .header-white .search {
@@ -684,6 +691,80 @@ a:hover {
 	margin: 29px 0px 30px;
 }
 /******* Subscribe End ******/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* -----Event Tabs ----- */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.nav-tabs>li.active>a{
+	color: white;
+	cursor: default;
+	background-color:#6CA8D1;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+.nav-tabs>li.active>a:focus{
+	background-color:transparent;
+	border: 2px solid #6CA8D1;
+	color: #6CA8D1;
+}
+.nav-tabs>li.active>a:hover {
+	color: #6CA8D1;
+}
+#exTab1 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+.nav-tabs {
+	border-bottom: none;
+}
+.nav-tabs>li>a,.nav-tabs>li.active>a,.nav-tabs>li>a:hover , .nav-tabs>li>a:focus {
+	background: rgb(108, 168, 209);
+	padding: 11px;
+	width: 275px;
+	/* height: 45px; */
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 19px;
+}
+button.button-info {
+	padding: 6px;
+	color: rgb(26, 104, 121);
+	background: transparent;
+	border-radius: 1px;
+	margin-right: 11px;
+	float: left;
+	border: 2px solid rgb(108, 168, 209);
+}
+#exTab2 h3 {
+  color: rgb(66, 79, 174);
+  padding : 5px 15px;
+}
+.blog-event {
+	margin: 40px 0 85px;
+}
+.featured-img {
+	float: left;
+	padding-right: 25px;
+}
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* ----- Work-Block ----- */
@@ -744,7 +825,7 @@ footer {
 .footer-wrap {
 	position: relative; 
 	width: 100%; 
-	background: #292f33; 
+	background: #05263C;
 	overflow: hidden;
 }
 .footer-top-line {
@@ -766,9 +847,10 @@ footer {
 	padding-top: 75px;
 }
 .footer-adress-block h3 {
-	color:#5a5d60; 
-	padding-bottom: 25px; 
+	color: #FCFCFC;
+	padding-bottom: 25px;
 	line-height: 33px;
+	text-transform: capitalize;
 }
 .footer-adress-block ul li {
 	position: relative;
@@ -793,7 +875,7 @@ footer {
 	color: #8899a6;
 }
 .footer-adress-block ul li a:hover {
-	color: #f1c40f;
+	color: #F9F8F4;
 }
 
 .footer-flikr {
@@ -804,6 +886,7 @@ footer {
 .footer-flikr h4 {
 	color: #fff; 
 	padding-top: 70px;
+	text-transform: capitalize;
 }
 .flikr-block {
 	position: relative; 
@@ -855,14 +938,14 @@ footer {
 	color: #8899a6;
 }
 .footer-link ul li a:hover {
-	color: #dd4b39;
+	color: #F5EEED;
 }
 
 .footer-write {
 	position: relative; 
 	float: left; 
 	width: 25.8%;
-	color: rgb(105, 158, 156);
+	color: rgb(202, 187, 187);
 	font-weight: bold;
 }
 
@@ -872,6 +955,7 @@ footer {
 	padding-bottom: 16px;
 }
 .footer-write .button-main {
+	background: rgb(86, 95, 93);
 	padding: 0px 90px; 
 	text-transform: none; 
 	font-size: 16px; 
