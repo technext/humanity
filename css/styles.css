@@ -12,22 +12,36 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(http://fonts.googleapis.com/css?family=Allerta+Stencil);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
 
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/******* General ******/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+p, li {
+	padding: 0;
+	margin-bottom: 22px;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 28px;
+	color: #666;
+	list-style: none;
+}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* Team ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 
-/* Team */
-
-	.avatar-team-member {
-width: 150px;
-height: 150px;
-overflow: hidden;
-margin: auto;
-border-radius: 50%;
-display: block;
-margin-bottom: 1em;
+.avatar-team-member {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	margin: auto;
+	border-radius: 50%;
+	display: block;
+	margin-bottom: 1em;
 }
 	.avatar-team-member img {
 	width: 200px;
@@ -143,7 +157,16 @@ margin-bottom: 1em;
 		background:rgba(0,0,0,1);
 		border-radius:50%;
 	}
-
+@media (max-width:800px){
+    .bx-wrapper .bx-controls-direction a{
+        position: static !important;
+        background: #68ABBB;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        
+    }
+}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* About ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -152,6 +175,15 @@ margin-bottom: 1em;
 	border-radius: 10px;
 	cursor: pointer;
 
+}
+h3.titleimg-card {
+	color: rgb(15, 87, 127);
+	padding: 5px;
+}
+p.img-card {
+color: white;
+font-weight: bold;
+padding: 5px;
 }
 .service-features2{
 	background: rgba(89, 195, 191, 0.09);
@@ -210,7 +242,7 @@ margin-bottom: 1em;
 }
 .header-text{
 	 position: relative;
-	 top: 40%;
+	 top: 31%;
 	 font-size: 30px;
 }
 .connect-text{
@@ -290,9 +322,24 @@ button {
 	padding: 50px 0;
 }
 
-.nav>li>a:focus, .nav>li>a:hover {
+ .selected {
+	color: rgb(8, 92, 98) !important;
+	border-bottom: 2px solid !important;
+}
+.nav .open>a, .nav .open>a:focus, .open>a:hover{
+	background:none !important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	color: #262626;
 	text-decoration: none;
-	background-color: #FFFFFF ;
+	background-color: transparent;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+	text-decoration: none;
+	background: none;
+	border-bottom: 2px solid !important;
+	transition: .3s;
 }
 
 .header-white .search {
@@ -333,12 +380,22 @@ ul.nav.navbar-nav li a{
 	text-transform: uppercase;
 	font-weight: bold; 
 	font-size: 17px;
+	border-bottom: 2px solid transparent;
 }
 .logo {
 	position: relative;
-	top: -21px;
+	top: -10px;
 	left: 5px;
 }
+@media (max-width: 500px){
+	.logo {
+	position: relative;
+	top: 5px;
+	bottom: 5px;
+	left: -18px;
+	}
+}
+
 
 /******* Header End ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -442,7 +499,6 @@ section.blog {
 }
 
 
-
 .content-block p
 {
 	padding: 22px 0px 27px;
@@ -540,7 +596,6 @@ section.blog {
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* Carousel ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-
 
 
 .carousel {
@@ -691,6 +746,143 @@ a:hover {
 	margin: 29px 0px 30px;
 }
 /******* Subscribe End ******/
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* -----Contact ----- */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+#contact{
+    padding:10px 0 10px;
+  }
+.fa-envelope-o,.fa-phone,.fa-fax,.fa-map-marker{
+	padding-right: 13px;
+}
+  .contact-text{
+    margin:45px auto;
+  }
+
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
+
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+/* Input Styles */
+
+  .form {
+	width: 100%;
+	padding: 15px;
+	background: transparent;
+	border: 1px solid rgba(104, 171, 187, 1);
+	margin-bottom: 25px;
+	color: #68ABBB !important;
+	font-size: 13px;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+  .form:hover{
+    border:1px solid #8BC3A3;
+  }
+
+  .form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #8BC3A3;
+  }
+
+  .textarea{
+    height: 120px;
+    max-height: 120px;
+    max-width: 100%;
+  }
+  
+/* Generic Button Styles */
+
+  .button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .button:hover{
+    background:#8BC3A3;
+    color:white;
+  }
+  .contact-form-full{
+  	margin-bottom: 20px;
+
+  }
+/* Send Button Styles */
+
+  .form-btn {
+	width: 100%;
+	display: block;
+	height: auto;
+	padding: 15px;
+	color: #A9A9A9;
+	background: transparent;
+	border: 1px solid rgb(104, 171, 187);
+	border-radius: 3px;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	margin: auto;
+	box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+
+ .form-btn:hover {
+	background: #287676;
+	color: white;
+}
+
+  .form-btn:active{
+    opacity: 0.9;
+  }
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* -----Services ----- */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.panel{
+	background: none;
+}
+.panel-body {
+	padding: 15px;
+	background: white;
+}
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* -----Event Tabs ----- */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -737,8 +929,8 @@ button.button-info {
 	border: 2px solid rgb(108, 168, 209);
 }
 #exTab2 h3 {
-  color: rgb(66, 79, 174);
-  padding : 5px 15px;
+	color: rgb(51, 122, 183);
+	padding: 5px 15px;
 }
 .blog-event {
 	margin: 40px 0 85px;
