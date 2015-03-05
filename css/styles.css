@@ -15,13 +15,33 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
+/*******Donations ******/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.btn-block {
+	padding: 12px 37px;
+	background: #68ABBB;
+}
+.form-control {
+	height: 47px;
+}
+.donate-body {
+	margin: 0 auto;
+	text-align: center;
+}
+.btn-tertiary{
+	padding: 12px 37px;
+	background: #68ABBB;
+	color: white;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* General ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
 
 p, li {
 	padding: 0;
-	margin-bottom: 22px;
+	/*margin-bottom: 22px;*/
 	font-family: 'Raleway',sans-serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -316,7 +336,43 @@ button {
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* Header ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    }
 .header{
 	margin-top: 20px;
 	padding: 50px 0;
@@ -1048,7 +1104,7 @@ footer {
 	position: relative;
 	float: left;
 	width: 100%;
-	padding-bottom: 19px;
+	padding-bottom: 8px;
 	padding-top: 2px;
 	left: -40px;
 }

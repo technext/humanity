@@ -74,82 +74,54 @@
                 </ul>
             </div>
         </div>
-		<div class="divider col-sm-12 col-xs-12 col-md-12">
-            <div class="header-text"><span>About</span> Us</div>
+        <div class="divider col-sm-12 col-xs-12 col-md-12">
+            <div class="header-text"><span>Donate</span> Here</div>
         </div>
-
-		 <div class="container">          
-                <div class="col-md-4">
-                  <div class="service-features">
-                  <div class="img-container">
-                    <img src="images/paperplane.png" alt="Service Features">
-                  </div>  
-                    <h3>Helpful</h3>                
-                    <p> Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.</p>
-                  </div>               
-                </div><!-- END ONE THIRD COLUMN -->
-                
-                <div class="col-md-4">
-                  <div class="service-features service-features2">
-                  <div class="img-container">
-                    <img src="images/lab.png" alt="Service Features">
-                  </div>                   
-
-                    <h3>Dedicated</h3>                
-                    <p> Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.</p>
-                  </div>               
-               
-                </div><!-- END ONE THIRD COLUMNS -->   
-                
-                <div class="col-md-4">
-                  <div class="service-features">
-                  <div class="img-container">                  
-                    <img src="images/like.png" alt="Service Features">
-                  </div>
-                    <h3>Perfect People</h3>                
-                    <p> Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit at metus.</p>
-                  </div>               
-                
-                </div><!-- END ONE THIRD COLUMNS -->                 
-                 
-                    
-     
-                
-            </div><!-- END ROW -->
-
-			<section class="work-block">
-		        <div class="container">
-		          <div class="row">
-		            <div class="col-md-12">
-		              <div class="col-md-4 col-xs-12 col-sm-12">
-		                <div class="box-img">
-		                    <img src="img/1.jpg"  width="100%" alt="" />
-                            <h3 class="titleimg-card">Life Survivors</h3>
-                            <p class="img-card">A family from Southern Africa needs your help.A family from Southern Africa needs your help.A family from Southern Africa needs your help.</p>
-		                  </div>
-		                 </div>
-		               <div class="col-md-4 col-xs-12 col-sm-12">
-                        <div class="box-img">
-                            <img src="img/2.jpg"  width="100%" alt="" />
-                            <h3 class="titleimg-card">Challenge Takers</h3>
-                            <p class="img-card">A family from Southern Africa needs your help.A family from Southern Africa needs your help.A family from Southern Africa needs your help.</p>
+        <div class="col-md-12 container">
+            <div class="donate-content">
+              <div class="donate-body">
+                <div class="accent-rule-short"></div>
+                <h2>Join us in helping people survive and rebuild their lives. </h2>
+                <ul class="list-unstyled list-inline">
+                    <li><button type="button" id="p1" class="btn btn-primary btn-xl btn-block">$15</button></li>
+                    <li><button type="button" id="p2" class="btn btn-primary btn-xl btn-block">$25</button></li>
+                    <li><button type="button" id="p3" class="btn btn-primary btn-xl btn-block">$50</button></li>
+                    <li><button type="button" id="p4" class="btn btn-primary btn-xl btn-block">$75</button></li>
+                    <li><button type="button" id="p5" class="btn btn-primary btn-xl btn-block">$100</button></li>
+                    <li>
+                        <div class="control-group">
+                          <div class="form-control-donate controls">
+                            <input name="textinput" placeholder="$ Other Amount" class="form-control" type="text">
                           </div>
-                         </div>
-		                 <div class="col-md-4 col-xs-12 col-sm-12">
-		                    <div class="box-img">
-		                        <img src="img/3.jpg" width="100%" alt="" />
-                            <h3 class="titleimg-card">Life at a stake</h3>
-                            <p class="img-card">A family from Southern Africa needs your help.A family from Southern Africa needs your help.A family from Southern Africa needs your help.</p>
-		                    </div>
-		                 </div>
-		               </div>
-		          </div>
-		        </div>
+                        </div>
+                    </li>
+                </ul>
+                <br>
+                <!-- monthly / one-time -->
+                      <form class="form-horizontal text-center">
+                        <fieldset>
+                        <div class="form-group">
+                          <div class="col-md-12"> 
+                            <label class="radio-inline" for="radios-s">
+                              <input name="radios" id="radios-s" value="1" checked="checked" type="radio">
+                              Single Donation
+                            </label> 
+                            <label class="radio-inline" for="radios-m">
+                              <input name="radios" id="radios-m" value="2" type="radio">
+                              Monthly Donation
+                            </label> 
+                          </div>
+                      </div>
+                      </fieldset>
+                    </form>
+                <br>
+                <button type="button" class="btn btn-tertiary btn-xl btn-rounded-edge" data-dismiss="donate">Continue</button> 
+                <br><br>                     
+            </div>
+          </div>
+        </div>  
 
-		   </section>
 
-      
-       
     <!-- ============FOOTER============= -->
 
     <footer id="footer">
@@ -233,33 +205,44 @@
       </div>    
     </footer> 
 
-	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-        <script src="js/nav-hover.min.js"></script>
-        <script src="js/masonry.pkgd.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-        <script src="js/jquery.flexslider-min.js"></script>
-        <script src="js/main.js"></script> <!-- Resource jQuery -->
-		<script type="text/javascript">
-			$(document).ready(function(){
-				
-				//Check to see if the window is top if not then display button
-				$(window).scroll(function(){
-					if ($(this).scrollTop() > 100) {
-						$('.button-totop').fadeIn();
-					} else {
-						$('.button-totop').fadeOut();
-					}
-				});
-				
-				//Click event to scroll to top
-				$('.button-totop').click(function(){
-					$('html, body').animate({scrollTop : 0},800);
-					return false;
-				});
-				
-			});
-		</script>
-	</body>
+    <!-- script references -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js">
+    </script>
+        <script src="js/bootstrap.min.js"></script>
+    <script src="js/nav-hover.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Place in the <head>, after the three links -->
+    <script>
+     $('.testimonials-slider').bxSlider({
+      slideWidth: 800,
+      minSlides: 1,
+      maxSlides: 1,
+      slideMargin: 32,
+      auto: true,
+      autoControls: true
+      });
+</script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                
+                //Check to see if the window is top if not then display button
+                $(window).scroll(function(){
+                    if ($(this).scrollTop() > 100) {
+                        $('.button-totop').fadeIn();
+                    } else {
+                        $('.button-totop').fadeOut();
+                    }
+                });
+                
+                //Click event to scroll to top
+                $('.button-totop').click(function(){
+                    $('html, body').animate({scrollTop : 0},800);
+                    return false;
+                });
+                
+            });
+        </script>
+    </body>
 </html>
+
