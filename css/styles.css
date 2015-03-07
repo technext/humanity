@@ -89,7 +89,9 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* General ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-
+.col-md-4.subscribe-form {
+margin-bottom: 49px;
+}
 
 p, li {
 	padding: 0;
@@ -748,21 +750,17 @@ background: none;
 
 }
 /******* Carousel End ******/
+
 .connect-wiget {
-	float: left;
+	/* float: left; */
 	margin-left: 20px;
+	margin: 0 auto;
+	width: 100%;
 }
 .about-us .follow-block-wrap {
 	width: 150px;
 }
-.follow-block-wrap {
-	position: relative;
-	float: left;
-	width: 130px;
-	margin-right: 5px;
-	margin-bottom: 100px;
 
-}
 a:hover {
 	text-decoration: none;
 }
@@ -775,7 +773,7 @@ a:hover {
 	float: left;
 	padding: 19px 15px 20px 19px;
 	cursor: pointer;
-	width: 100%;
+	width: 120px;
 	text-align: center;
 	text-decoration: none;
 }
