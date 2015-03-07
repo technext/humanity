@@ -442,6 +442,26 @@ button {
 	text-decoration: none;
 	background-color: transparent;
 }
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+.navbar-collapse.collapse {
+	display: block!important;
+	height: auto!important;
+	padding-bottom: 0;
+	overflow: visible!important;
+	visibility: visible!important;
+	text-align: center;
+}
+.navbar-inner {
+  text-align:center;
+}
+
 
 .nav>li>a:focus, .nav>li>a:hover{
 	text-decoration: none;
