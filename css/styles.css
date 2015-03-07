@@ -510,16 +510,22 @@ p.text-center.sub-text {
 .social-share {
 	margin-top: 10px;
 	font-size: 10px;
-	color: #2494A0;
-
+	color:white;
+	display: inline-flex;
+	padding: 4px;
 }
 .social-share .fa {
 	background: transparent;
-	padding: 10px;
-	border-radius: 11%;
+	padding: 14px;
+	border-radius: 50%;
 	width: 50px;
+	height: 50px;
 	text-align: center;
 	border: 2px solid white;
+	margin-right: 7px;
+	position: relative;
+	top: 4px;
+	cursor: pointer;
 }
 .social-share  .fa:hover{
 	cursor:pointer;
@@ -538,7 +544,7 @@ ul.nav.navbar-nav li a{
 	color:#2494A0;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 17px;
+	font-size: 15px;
 }
 .logo {
 	position: relative;
@@ -1166,168 +1172,35 @@ button.button-info {
 /* FOOTER*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
-footer {
+footer{
 	position: relative;
 	float: left;
 	width: 100%;
 	overflow: hidden;
 	background: #292f33;
-}
-.footer-adress-block ul {
-	margin-top: 28px;
-}
-.footer-single {
-	margin-top: 0px;
-}
-.footer-wrap {
-	position: relative;
-	width: 100%;
-	background: #05263C;
-	overflow: hidden;
-}
-.footer-top-line {
-	position: absolute;
-	top: -6px;
-	left: 0px;
-	width: 100%;
-	height: 3px;
-}
-.footer-top-line img {
-	width: 100%;
-	height: 3px;
-}
-
-.footer-adress-block {
-	position: relative;
-	float: left;
-	width: 23%;
-	padding-top: 75px;
 	color: white;
 }
-.footer-adress-block h3 {
-	color: #FCFCFC;
-	padding-bottom: 25px;
-	line-height: 33px;
-	text-transform: capitalize;
-}
-.footer-adress-block ul li {
-	position: relative;
-	float: left;
-	width: 100%;
-	padding-bottom: 8px;
-	padding-top: 2px;
-	left: -40px;
-}
-.footer-adress-block ul li .fa {
-	color: #F1F1F1;
-	font-size: 18px;
-	line-height: 30px;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-}
-.footer-adress-block ul li a {
-	padding-left: 37px;
-	font-size: 14px;
-	line-height: 30px;
-	color: #8899a6;
-}
-.footer-adress-block ul li a:hover {
-	color: #F9F8F4;
-}
-
-.footer-flikr {
-	position: relative;
-	float: left;
-	width: 28%;
-}
-.footer-flikr h4 {
-	color: #fff;
-	padding-top: 70px;
-	text-transform: capitalize;
-}
-.flikr-block {
-	position: relative;
-	float: left;
-	width: 100%;
-	padding-top: 30px;
-	padding-bottom: 31px;
-}
-.flikr-img {
-	width: 33.33333%;
-	padding: 0px 0px 1px 1px;
-	position: relative;
-	float: left;
-}
-.flikr-img img {
-	width: 100%;
-	height: auto;
-}
-.footer-flikr span {
-	font-size: 16px;
-	line-height: 32px;
-	color:#8899a6;
-}
-.footer-flikr span a {
-	color: #EDEDED;
-}
-
-.footer-link {
-	position: relative;
-	float: left;
-	width: 23.2%;
-	padding-left:72px;
-}
-.footer-link h4 {
-	padding-top: 70px;
-	color:#fff;
-	padding-bottom: 19px;
-}
-.footer-link ul li {
-	position: relative;
-	float: left;
-	padding-bottom: 20px;
-	width: 100%;
-	left: -40px;
-}
-.footer-link ul li a {
-	font-size: 14px;
-	line-height: 30px;
-	color: #8899a6;
-}
-.footer-link ul li a:hover {
-	color: #F5EEED;
-}
-
-.footer-write {
-	position: relative;
-	float: left;
-	width: 25.8%;
-	color: rgb(253, 253, 253);
-	font-weight: bold;
-}
-.footer-write p{
+.footer-text {
 	color: white;
+	margin-top: -16px;
 }
-
-.footer-write h4 {
-	padding-top: 70px;
-	color:#fff;
-	padding-bottom: 16px;
+.footer-text1{
+	color: white;
+	margin-top: 5px;
+	}
+.copyright span{
+	color: white;
+	font-size: 14px;
 }
-.footer-write .button-main {
-	background: transparent;
-	padding: 0px 90px;
-	text-transform: none;
-	font-size: 16px;
-	line-height: 32px;
-	width: 300px;
-	margin-top: 16px;
-	height: 61px;
-	margin-bottom: 13px;
-	border: 1px solid wheat;
+.footer-content{
+	margin-top:30px;
 }
-
+.footer-menus li {
+	display: inline;
+	color: white;
+	left: -38px;
+	position: relative;
+}
 .move-top-page {
 	position: relative;
 	float: left;
@@ -1396,7 +1269,7 @@ footer {
 	line-height: 20px;
 	color: #66757f;
 	text-align: right;
-	margin-top: 57px;
+	margin-top: 76px;
 }
 
 .white-footer {
