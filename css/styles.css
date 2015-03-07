@@ -434,7 +434,7 @@ button {
 
  .selected {
 	color: rgb(8, 92, 98) !important;
-	border-bottom: 2px solid !important;
+	border-bottom: 2px solid #2494A0 !important;
 }
 .nav .open>a, .nav .open>a:focus, .open>a:hover{
 	background:none !important;
@@ -510,7 +510,6 @@ ul.nav.navbar-nav li a{
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 17px;
-	border-bottom: 2px solid transparent;
 }
 .logo {
 	position: relative;

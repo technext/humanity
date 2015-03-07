@@ -40,10 +40,10 @@
 		</div>
 	</div>
 
-	
+
 
 		<div class="navbar col-md-8 col-md-offset-2" role="navigation">
-			 
+
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 				<span class="sr-only">Toggle navigation</span>
@@ -51,11 +51,11 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				
+
 			</div>
-			
+
 			<div class="collapse navbar-collapse">
-				
+
 				<ul class="nav navbar-nav">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
@@ -68,7 +68,7 @@
                   <a href="#" class="dropdown-toggle"data-hover="dropdown">Donations <b class="caret"></b></a>
                   <ul class="dropdown-menu">
                     <li><a href="donate.html">Donate here</a></li>
-                    <li><a href="collection.html">Total Collected</a></li>
+                    <li class="selected"><a href="collection.html">Total Collected</a></li>
                   </ul>
                 </li>
 				</ul>
@@ -190,8 +190,8 @@
                   </div>
             </div>
         </div>
-      </div>    
-    </footer> 
+      </div>
+    </footer>
 
 	<!-- script references -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js">
@@ -203,7 +203,7 @@
     <!-- Place in the <head>, after the three links -->
 		<script type="text/javascript">
 			$(document).ready(function(){
-				
+
 				//Check to see if the window is top if not then display button
 				$(window).scroll(function(){
 					if ($(this).scrollTop() > 100) {
@@ -212,13 +212,13 @@
 						$('.button-totop').fadeOut();
 					}
 				});
-				
+
 				//Click event to scroll to top
 				$('.button-totop').click(function(){
 					$('html, body').animate({scrollTop : 0},800);
 					return false;
 				});
-				
+
 			});
 		</script>
 	</body>
