@@ -775,13 +775,23 @@ background: none;
 .content-block{
 	margin-top: 20px;
 }
+@media (max-width: 600px){
+.carousel-caption {
+font-family: 'Poiret One', cursive;
+font-size: 24px !important;
+font-weight: bold;
+background: none;
+}
+}
 .carousel-caption {
 	font-family: 'Poiret One', cursive;
 	text-transform: uppercase;
 	font-size: 50px;
 	font-weight: bold;
+	background: rgba(152, 168, 173, 0.43);
 
 }
+
 /******* Carousel End ******/
 
 .connect-wiget {
@@ -1075,16 +1085,17 @@ a:hover {
 }
 .nav-tabs {
 	border-bottom: none;
+	padding-bottom: 10px;
 }
 .nav-tabs>li>a,.nav-tabs>li.active>a,.nav-tabs>li>a:hover , .nav-tabs>li>a:focus {
 	background: rgb(108, 168, 209);
 	padding: 11px;
-	width: 275px;
-	/* height: 45px; */
+	width: 240px;
 	text-align: center;
 	font-weight: bold;
 	color: white;
 	font-size: 19px;
+	margin-bottom: 4px;
 }
 button.button-info {
 	padding: 6px;
