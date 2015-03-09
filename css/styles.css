@@ -95,7 +95,6 @@ margin-bottom: 49px;
 
 p, li {
 	padding: 0;
-	/*margin-bottom: 22px;*/
 	font-family: 'Raleway',sans-serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -341,52 +340,6 @@ body {
 
 /******* End General ******/
 
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/******* Search ******/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-
-.search {
-	width: 270px;
-	height: 62px;
-	background: none;
-	position: relative;
-	float: right;
-	margin-top: 10px;
-	margin-left: 20px;
-}
-.search button {
-	position: absolute;
-	right: 31px;
-	top: 17px;
-	font-size: 18px;
-	color: #66757f;
-	background: none;
-}
-.search input {
-	border: 0px none;
-}
-button {
-	outline: none;
-	border: none;
-	box-shadow: none;
-}
-.search input {
-	height: 62px;
-	width: 270px;
-	font-size: 14px;
-	line-height: 30px;
-	color: #66757f;
-	padding-left: 20px;
-	letter-spacing: 0.4px;
-	padding-right: 40px;
-	transition: all 0.3s ease-in;
-	-webkit-transition: all 0.3s ease-in;
-	-moz-transition: all 0.3s ease-in;
-	-o-transition: all 0.3s ease-in;
-	-ms-transition: all 0.3s ease-in;
-}
-
-/******* Search End ******/
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* Header ******/
