@@ -434,7 +434,7 @@ button {
 	padding: 50px 0;
 }
 .heading-icon{
-	margin-top: 100px;
+	margin-top: 79px;
 	position: relative;
 	display: inline-block;
 	border-radius: 10px;
@@ -459,9 +459,8 @@ p.text-center.sub-text {
 .next-line{
 	max-width: 600px !important;
 }
- .selected {
-	color: rgb(8, 92, 98) !important;
-	border-bottom: 2px solid #2494A0 !important;
+ li.selected a{
+	color: black !important;
 }
 .nav .open>a, .nav .open>a:focus, .open>a:hover{
 	background:none !important;
@@ -497,7 +496,6 @@ p.text-center.sub-text {
 .nav>li>a:focus, .nav>li>a:hover{
 	text-decoration: none;
 	background: none;
-	border-bottom: 2px solid !important;
 	transition: .3s;
 }
 
@@ -548,8 +546,9 @@ ul.nav.navbar-nav li a{
 }
 .logo {
 	position: relative;
-	top: -10px;
+	top: -47px;
 	left: 5px;
+	border-bottom: none;
 }
 @media (max-width: 768px){
 	.logo {
@@ -1171,14 +1170,22 @@ button.button-info {
  /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* FOOTER*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-
+.left-side{
+	float: left;
+}
+.right-side{
+	float: right;
+}
 footer{
 	position: relative;
 	float: left;
 	width: 100%;
 	overflow: hidden;
-	background: #292f33;
+	background: #395B71;
 	color: white;
+}
+.footer-menus li{
+	cursor: pointer;
 }
 .footer-text {
 	color: white;
