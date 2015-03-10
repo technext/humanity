@@ -1105,6 +1105,7 @@ button.button-info {
 	display: block;
 	background-color: rgba(230, 230, 230, 0.55);
 	padding: 28px 23px 31px;
+	margin-top: 2px;
 }
 .box-text {
 	border: 1px solid #0C93B2;
