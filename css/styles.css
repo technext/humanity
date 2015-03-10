@@ -105,7 +105,11 @@ p, li {
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /******* Team ******/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-
+@media (max-width: 480px){
+.bx-wrapper .testimonials-carousel-thumbnail img {
+    padding-right: 15px;
+}
+}
 
 .avatar-team-member {
 	width: 150px;
@@ -230,7 +234,7 @@ p, li {
 		background:rgba(0,0,0,1);
 		border-radius:50%;
 	}
-@media (max-width:800px){
+@media (max-width:991px){
     .bx-wrapper .bx-controls-direction a{
         position: static !important;
         background: #68ABBB;
