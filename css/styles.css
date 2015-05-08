@@ -30,8 +30,11 @@ divider {
 	position: relative;
 	top: 29%;
 	font-size: 35px;
+<<<<<<< HEAD
 	text-align: center;
 	margin-bottom: 40px;
+=======
+>>>>>>> origin/gh-pages
 }
 .connect-text{
 	margin-top: 50px;
